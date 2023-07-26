@@ -1,0 +1,14 @@
+/* slider.css */
+
+.slide-container {
+    overflow: hidden;
+}
+
+.slide-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-item {
+    min-width: 100%;
+}
